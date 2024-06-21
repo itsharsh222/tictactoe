@@ -1,0 +1,44 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    
+}
+/* .Ayush{
+    font-weight: bold;
+    color:rgb(184, 230, 20);
+    font-size: 40px;
+} */
+.square{
+    background-color: rgb(21, 255, 0);
+    border: 1px solid grey;
+    font-size:40px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+ 
+    margin-top: -4px;
+    margin-right: -4px;
+    line-height: 100px;
+    float:left;
+    padding: 0;
+    
+    
+
+}
+/* .square:hover{
+    cursor: pointer;
+} */
+
+.board-Row:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.status{
+    margin-bottom:10px ;
+    font-size: 20px;
+    
+}
